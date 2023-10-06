@@ -5,9 +5,9 @@ const gridDOMElement = document.querySelector('.grid')
 console.log(gridDOMElement)
 
 // creamo il ciclo FOR 
-for (i = 0; i < 100; i++){
+for (i = 1; i <= 100; i++){
     // console.log("questo è il valore di i", i);
-    let n = i + 1;
+    let n = i;
     // console.log("questo è il valore di n", n);
     
     
@@ -35,6 +35,6 @@ for (i = 0; i < 100; i++){
     boxDOMElement.classList.add('box');
     boxDOMElement.innerHTML = n;
     gridDOMElement.append(boxDOMElement)
-    
+
     
 }
