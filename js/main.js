@@ -33,6 +33,8 @@ for (i = 0; i < 100; i++){
     const boxDOMElement = document.createElement('div');
     console.log(boxDOMElement);
     boxDOMElement.classList.add('box');
+    boxDOMElement.innerHTML = n;
+    gridDOMElement.append(boxDOMElement)
     
     
 }
