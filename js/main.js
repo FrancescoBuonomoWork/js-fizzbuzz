@@ -40,7 +40,7 @@ for (i = 1; i <= 100; i++){
 
     // bonus 1
 
-    gridDOMElement.append(boxDOMElement)
+    gridDOMElement.append(boxDOMElement);
 
 
     
